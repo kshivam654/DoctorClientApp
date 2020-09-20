@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:id="@+id/doctorName"
+            android:text="Dr. Ramesh"
+            android:textColor="#009688"
+            android:fontFamily="@font/gotham"
+            android:textSize="25dp"
+            android:paddingLeft="40dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/waiting"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/orbitron_bold"
+        android:foregroundGravity="center"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:text="52"
+        android:textSize="20dp"
+        android:background="@drawable/white_circle_drawable"
+        />
+
+</RelativeLayout>
