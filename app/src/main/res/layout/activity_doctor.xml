@@ -15,7 +15,6 @@
         android:bottomRightRadius="10dp"
         android:padding="10dp"
         android:shadowColor="#000000"
-        android:shadowRadius="10dp"
         android:text="Start"
         android:textColor="#ffffff"
         android:textSize="40dp"

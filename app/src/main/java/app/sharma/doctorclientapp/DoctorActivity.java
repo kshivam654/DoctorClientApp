@@ -19,7 +19,6 @@ public class DoctorActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button.setText("STOP");
                 Intent intent = new Intent(DoctorActivity.this, DocterChamber.class);
                 startActivity(intent);
             }
